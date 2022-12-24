@@ -1,0 +1,59 @@
+body {
+  background-image: url('img/leaves-background.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: absolute;
+  height: 1090px;
+  width: 1920px;
+}
+
+/* 
+--------------------------------------
+ПЛАШКА НАВИГАЦИИ 
+*/
+
+/*Выравнивание логотипа*/
+.nav, logo, a {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0px;
+}
+
+/*Отступ между логотипом*/
+.nav, logo, a, img {
+  margin-right: 20px;
+}
+
+/*Стилизация лого*/
+.nav, logo, a {
+  margin-left: 120px;
+  text-decoration: none;
+  color: black;
+  font-family:'Montserrat Alternates', sans-serif;
+  font-size: 36px;
+}
+
+/* 
+---------------------------------------
+ЗАГОЛОВОК 
+*/
+
+/*Контейнер заголовка*/
+.title-container {
+  font-family: 'Montserrat Alternates', sans-serif;
+  margin-top: 390px;
+  margin-bottom: 545px;
+  margin-left: 120px;
+  height: 150px;
+  width: 890px;
+}
+
+/*Размер первого заголовка*/
+.title-container, h1 {
+  font-size: 64px;
+}
+/*Размер второго заголовка*/
+.title-container, h2 {
+  font-size: 40px;
+}

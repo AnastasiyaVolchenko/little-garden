@@ -1,10 +1,26 @@
 body {
+  
+}
+
+.block-1 {
   background-image: url('img/leaves-background.jpg');
   background-size: cover;
   background-repeat: no-repeat;
   background-position: absolute;
+  padding: 0;
+  border:0;
   height: 1090px;
   width: 1920px;
+  z-index:1;
+}
+
+.nav-block {
+  background-color: white;
+  height: 92px;
+  width: 1920px;
+  position: absolute;
+  top:0;
+  z-index: 2;
 }
 
 /* 
@@ -12,31 +28,35 @@ body {
 ПЛАШКА НАВИГАЦИИ 
 */
 
-/*Выравнивание логотипа*/
-.nav, logo, a {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  padding: 0px;
+.menu-elements {
+  display: inline-flex;
+  font-family:'Montserrat Alternates', sans-serif;
+  font-size: 40px;
+  list-style: none;
+  margin-top: 10px;
+  z-index: 3;
 }
 
-/*Отступ между логотипом*/
-.nav, logo, a, img {
-  margin-right: 20px;
-}
-
-/*Стилизация лого*/
-.nav, logo, a {
+.menu-elements, li {
+  margin-top: 10px;
   margin-left: 120px;
+  z-index:3;
+}
+
+.menu-elements, img {
+  z-index:3;
+  margin-right: 30px;
+}
+
+
+
+.logo, a {
+  margin-top: 10px;
   text-decoration: none;
   color: black;
-  font-family:'Montserrat Alternates', sans-serif;
-  font-size: 36px;
-}
-
-/*Цвет навигатора*/
-.nav {
-  background: solid white;
+  font-size: 40px;
+  font-family: 'Montserrat Alternates', sans-serif;
+  z-index: 3;
 }
 
 /* 
@@ -46,19 +66,21 @@ body {
 
 /*Контейнер заголовка*/
 .title-container {
+  position: absolute;
+  left:120px;
   font-family: 'Montserrat Alternates', sans-serif;
   margin-top: 390px;
   margin-bottom: 545px;
-  margin-left: 120px;
-  height: 150px;
   width: 890px;
 }
 
 /*Размер первого заголовка*/
 .title-container, h1 {
   font-size: 64px;
+  /*margin-left: 120px;*/
 }
 /*Размер второго заголовка*/
 .title-container, h2 {
   font-size: 40px;
+  /*margin-left: 120px;*/
 }

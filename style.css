@@ -1,6 +1,4 @@
-body {
-  
-}
+/*Первый Блок*/
 
 .block-1 {
   background-image: url('img/leaves-background.jpg');
@@ -14,57 +12,97 @@ body {
   z-index:1;
 }
 
+/*Кнопки Навигатора*/
+
+.catalog-block-1 {
+  height: 55px;  
+  width: auto;
+  z-index: 3;
+  padding-left: 50px;
+  padding-right: 50px;
+  border-radius: 10px;
+  
+}
+.cart-block-2 {
+  height: 55px;
+  width: auto;
+  z-index: 3;
+  padding-left: 50px;
+  padding-right: 50px;
+  border-radius: 10px;
+  
+}
+.menu-block-3 {
+  height: 55px;
+  width: auto;
+  z-index: 3;
+  padding-left: 50px;
+  padding-right: 50px;
+  border-radius: 10px;
+  
+}
+
+/*Анимация Кнопок*/
+
+.catalog-block-1:hover {
+  transition: 1s;
+  background: #deffcf;
+}
+.cart-block-2:hover {
+  transition: 1s;
+  background: #deffcf;
+}
+.menu-block-3:hover {
+  transition: 1s;
+  background: #deffcf;
+}
+
+/*Плашка Навигации*/
+
 .nav-block {
   background-color: white;
   height: 92px;
   width: 1920px;
   position: absolute;
-  top:0;
+  top: 0;
   z-index: 2;
 }
-
-/* 
---------------------------------------
-ПЛАШКА НАВИГАЦИИ 
-*/
-
 .menu-elements {
   display: inline-flex;
   font-family:'Montserrat Alternates', sans-serif;
   font-size: 40px;
   list-style: none;
   margin-top: 10px;
-  z-index: 3;
+  z-index: 4;
 }
-
 .menu-elements, li {
   margin-top: 10px;
-  margin-left: 120px;
-  z-index:3;
+  z-index:4;
 }
-
 .menu-elements, img {
-  z-index:3;
+  z-index: 4;
   margin-right: 30px;
 }
-
-
-
 .logo, a {
   margin-top: 10px;
   text-decoration: none;
   color: black;
   font-size: 40px;
   font-family: 'Montserrat Alternates', sans-serif;
-  z-index: 3;
+  z-index: 4;
+}
+.logo, img {
+  width: auto;
+  margin-left: 120px;
+}
+.logo {
+  width: auto;
+  margin-left: 0px;
+  padding-right: 680px;
 }
 
-/* 
----------------------------------------
-ЗАГОЛОВОК 
-*/
+/*Заголовок*/
 
-/*Контейнер заголовка*/
 .title-container {
   position: absolute;
   left:120px;
@@ -73,13 +111,10 @@ body {
   margin-bottom: 545px;
   width: 890px;
 }
-
-/*Размер первого заголовка*/
 .title-container, h1 {
   font-size: 64px;
   /*margin-left: 120px;*/
 }
-/*Размер второго заголовка*/
 .title-container, h2 {
   font-size: 40px;
   /*margin-left: 120px;*/

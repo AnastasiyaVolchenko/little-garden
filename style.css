@@ -12,6 +12,18 @@
   z-index:1;
 }
 
+/*Поисковая Строка*/
+
+.search-stroke, input {
+  font-family:'Montserrat Alternates', sans-serif;
+  font-size: 40px;
+  border-radius: 20px;
+  width: 400px;
+  height: 60px;
+  border: none;
+  box-shadow: 4px 4px 5px lightgrey;
+}
+
 /*Кнопки Навигатора*/
 
 .catalog-block-1 {

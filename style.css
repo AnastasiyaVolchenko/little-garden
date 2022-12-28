@@ -96,7 +96,8 @@
   margin-right: 30px;
 }
 .logo, a {
-  margin-top: 10px;
+  margin-top: 4px;
+  white-space: nowrap;
   text-decoration: none;
   color: black;
   font-size: 40px;
@@ -104,11 +105,12 @@
   z-index: 4;
 }
 .logo, img {
-  width: auto;
+  width: 49px;
+  height: 51px;
   margin-left: 120px;
 }
+/*Корзина Каталог Меню*/
 .logo {
-  width: auto;
   margin-left: 0px;
   padding-right: 680px;
 }
@@ -119,7 +121,7 @@
   position: absolute;
   left:120px;
   font-family: 'Montserrat Alternates', sans-serif;
-  margin-top: 330px;
+  margin-top: 200px;
   margin-bottom: 545px;
   width: 890px;
 }

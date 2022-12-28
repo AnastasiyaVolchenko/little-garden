@@ -1,0 +1,25 @@
+/* sm */
+
+@media (max-width: 639.8px) and (min-width: 340px) {
+  body {
+    background-color: green;
+  }
+}
+
+/* md */
+
+@media (max-width: 767.8px) and (min-width: 640px) {
+  body {
+    background-color: red;
+  }
+  
+}
+
+/* lg */
+@media (max-width: 1023.8px) and (min-width: 768px) {
+  body {
+    background-color: blue;
+  }
+}
+
+/*#sourceMappingURL=main.css.map*/

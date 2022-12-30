@@ -1,0 +1,263 @@
+.block-1 {
+
+  font-family: 'Montserrat Alternates', sans-serif;
+
+  background-image: url('img/leaves-background.jpg');
+
+  background-size: cover;
+
+  background-repeat: no-repeat;
+
+  background-position: absolute;
+
+  padding: 0;
+
+  border:0;
+
+  height: 900px;
+
+  width: 1920px;
+
+  z-index:1;
+
+}
+
+  
+
+/*Поисковая Строка*/
+
+  
+
+.search-stroke, input {
+
+  font-family:'Montserrat Alternates', sans-serif;
+
+  font-size: 40px;
+
+  border-radius: 20px;
+
+  width: 400px;
+
+  height: 60px;
+
+  border: none;
+
+  box-shadow: 4px 4px 5px lightgrey;
+
+}
+
+  
+
+/*Кнопки Навигатора*/
+
+  
+
+.catalog-block-1 {
+
+  height: 55px;  
+
+  width: auto;
+
+  z-index: 3;
+
+  padding-left: 50px;
+
+  padding-right: 50px;
+
+  border-radius: 10px;
+
+}
+
+.cart-block-2 {
+
+  height: 55px;
+
+  width: auto;
+
+  z-index: 3;
+
+  padding-left: 50px;
+
+  padding-right: 50px;
+
+  border-radius: 10px;
+
+    
+
+}
+
+.menu-block-3 {
+
+  height: 55px;
+
+  width: auto;
+
+  z-index: 3;
+
+  padding-left: 50px;
+
+  padding-right: 50px;
+
+  border-radius: 10px;
+
+    
+
+}
+
+/*Анимация Кнопок*/
+
+.catalog-block-1:hover {
+
+  transition: 1s;
+
+  background: #deffcf;
+
+}
+
+.cart-block-2:hover {
+
+  transition: 1s;
+
+}
+
+.menu-block-3:hover {
+
+  transition: 1s;
+
+  background: #deffcf;
+
+}
+
+  
+
+/*Плашка Навигации*/
+
+  
+
+.nav-block {
+
+  background-color: white;
+
+  height: 92px;
+
+  width: 1920px;
+
+  position: absolute;
+
+  top: 0;
+
+  z-index: 2;
+
+}
+
+.menu-elements {
+
+  display: inline-flex;
+
+  font-family:'Montserrat Alternates', sans-serif;
+
+  font-size: 40px;
+
+  list-style: none;
+
+  margin-top: 10px;
+
+  z-index: 4;
+
+}
+
+.menu-elements, li {
+
+  margin-top: 10px;
+
+  z-index:4;
+
+}
+
+.menu-elements, img {
+
+  z-index: 4;
+
+  margin-right: 30px;
+
+}
+
+.logo, a {
+
+  margin-top: 4px;
+
+  white-space: nowrap;
+
+  text-decoration: none;
+
+  color: black;
+
+  font-size: 40px;
+
+  font-family: 'Montserrat Alternates', sans-serif;
+
+  z-index: 4;
+
+}
+
+.logo, img {
+
+  width: 49px;
+
+  height: 51px;
+
+  margin-left: 120px;
+
+}
+
+  
+
+/*Корзина Каталог Меню*/
+
+  
+
+.logo {
+
+  margin-left: 0px;
+
+  padding-right: 890px;
+
+}
+
+  
+
+/*Заголовок*/
+
+  
+
+.title-container {
+
+  position: absolute;
+
+  left:120px;
+
+  font-family: 'Montserrat Alternates', sans-serif;
+
+  margin-top: 230px;
+
+  margin-bottom: 545px;
+
+  width: 890px;
+
+}
+
+.title-container, h1 {
+
+  font-size: 64px;
+
+  /*margin-left: 120px;*/
+
+}
+
+.title-container, h2 {
+
+  font-size: 40px;
+
+  /*margin-left: 120px;*/
+
+}

@@ -14,7 +14,7 @@
 
   border:0;
 
-  height: 900px;
+  height: 1080px;
 
   width: 1920px;
 
@@ -235,7 +235,6 @@
   left:120px;
 
   font-family: 'Montserrat Alternates', sans-serif;
-
   margin-top: 270px;
 
   margin-bottom: 545px;
@@ -245,8 +244,9 @@
 }
 
 .title-container, h1 {
+  color: black;
 
-  font-size: 60px;
+  font-size: 55px;
 
   /*margin-left: 120px;*/
 
@@ -255,7 +255,7 @@
 .title-container, h2 {
   color: grey;
 
-  font-size: 45px;
+  font-size: 40px;
 
   /*margin-left: 120px;*/
 

@@ -26,8 +26,7 @@
 
 /*Поисковая Строка*/
 
-  
-
+/*  
 .search-stroke, input {
 
   font-family:'Montserrat Alternates', sans-serif;
@@ -43,9 +42,8 @@
   border: none;
 
   box-shadow: 4px 4px 5px lightgrey;
-
 }
-
+*/
   
 
 /*Кнопки Навигатора*/
@@ -248,15 +246,16 @@
 
 .title-container, h1 {
 
-  font-size: 54px;
+  font-size: 60px;
 
   /*margin-left: 120px;*/
 
 }
 
 .title-container, h2 {
+  color: grey;
 
-  font-size: 30px;
+  font-size: 45px;
 
   /*margin-left: 120px;*/
 

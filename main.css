@@ -1,262 +1,133 @@
-.block-1 {
+@import "reset.css";
+@import "root.css";
 
-  font-family: 'Montserrat Alternates', sans-serif;
-
-  background-image: url('img/leaves-background.jpg');
-
-  background-size: cover;
-
-  background-repeat: no-repeat;
-
-  background-position: absolute;
-
-  padding: 0;
-
-  border:0;
-
-  height: 1080px;
-
-  width: 1920px;
-
-  z-index:1;
-
-}
-
-  
-
-/*Поисковая Строка*/
-
-/*  
-.search-stroke, input {
-
-  font-family:'Montserrat Alternates', sans-serif;
-
-  font-size: 40px;
-
-  border-radius: 20px;
-
-  width: 400px;
-
-  height: 60px;
-
-  border: none;
-
-  box-shadow: 4px 4px 5px lightgrey;
-}
+/*
+————————
+ Основа
+————————
 */
-  
 
-/*Кнопки Навигатора*/
-
-  
-
-.catalog-block-1 {
-
-  height: 55px;  
-
-  width: auto;
-
-  z-index: 3;
-
-  padding-left: 50px;
-
-  padding-right: 50px;
-
-  border-radius: 10px;
-
-}
-
-.cart-block-2 {
-
-  height: 55px;
-
-  width: auto;
-
-  z-index: 3;
-
-  padding-left: 50px;
-
-  padding-right: 50px;
-
-  border-radius: 10px;
-
-    
-
-}
-
-.menu-block-3 {
-
-  height: 55px;
-
-  width: auto;
-
-  z-index: 3;
-
-  padding-left: 50px;
-
-  padding-right: 50px;
-
-  border-radius: 10px;
-
-    
-
-}
-
-/*Анимация Кнопок*/
-
-.catalog-block-1:hover {
-
-  transition: 1s;
-
-  background: #deffcf;
-
-}
-
-.cart-block-2:hover {
-
-  transition: 1s;
-
-}
-
-.menu-block-3:hover {
-
-  transition: 1s;
-
-  background: #deffcf;
-
-}
-
-  
-
-/*Плашка Навигации*/
-
-  
-
-.nav-block {
-
-  background-color: white;
-
-  height: 92px;
-
+body{
   width: 1920px;
+  background-color: var(--gray);
+}
+header{
+  height: 1040px;
+  background-image: url(img/bg.png);
+  background-repeat: no-repeat;
+  background-position: absolute;
+  background-position-y: bottom;
+  position: relative;
+  border-bottom: 2px solid white;
+}
 
+/*
+————————————————————
+ Навигационное меню
+————————————————————
+*/
+
+nav {
+  width: 1920px;
+  margin: 0 auto;
+  border-bottom: 2px solid white;
+}
+nav:before {
+  content: "";
+  display: block;
+  height: 80px;
+  width: 100%;
+  background: var(--gray);
   position: absolute;
-
-  top: 0;
-
-  z-index: 2;
-
+  left: 0;
+  z-index: -1;
 }
 
-.menu-elements {
-
-  display: inline-flex;
-
-  font-family:'Montserrat Alternates', sans-serif;
-
-  font-size: 40px;
-
-  list-style: none;
-
-  margin-top: 10px;
-
-  z-index: 4;
-
-}
-
-.menu-elements, li {
-
-  margin-top: 10px;
-
-  z-index:4;
-
-}
-
-.menu-elements, img {
-
-  z-index: 4;
-
-  margin-right: 30px;
-
-}
-
-.logo, a {
-
-  margin-top: 4px;
-
-  white-space: nowrap;
-
-  text-decoration: none;
-
-  color: black;
-
-  font-size: 40px;
-
-  font-family: 'Montserrat Alternates', sans-serif;
-
-  z-index: 4;
-
-}
-
-.logo, img {
-
-  width: 49px;
-
-  height: 51px;
-
+ul {
   margin-left: 120px;
-
+  margin-left: 120px;
+  padding: 0;
+  list-style: none;
+  height: 80px;
+  
+}
+ul li {
+  float: left;
+}
+ul li a{
+  font-family: var(--amatic);
+  font-size: var(--h5-laptop);
+  color: #ffffff;
+  display: block;
+  height: 80px;
+  padding: 0 30px;
+  text-transform: uppercase;
+  text-decoration: none;
+  line-height: 80px;
+  padding-left: 77px;
+  padding-right: 77px;
+  border-right: 2px solid white;
+  border-left: 2px solid white;
+}
+ul li a img{
+  display: inline;
+  margin-right: 10px;
+  margin-top: 15px;
 }
 
-  
-
-/*Корзина Каталог Меню*/
-
-  
-
-.logo {
-
-  margin-left: 0px;
-
-  padding-right: 890px;
-
+form input{
+  font-family: var(--amatic);
+  font-size: var(--h5-laptop);
+  width: 500px;
+  background: var(--gray);
+  height: 80px;
+  margin-left: 15px;
+  color: #ffffff;
+  box-shadow: none;
+  border-radius: 5px;
+  outline: none;
+}
+form button{
+  cursor: pointer;
+  background: none;
+  margin-right: 15px;
+  line-height: 70px;
 }
 
-  
+/*
+—————————————————
+ Слоган и кнопка
+—————————————————
+*/
 
-/*Заголовок*/
-
-  
-
-.title-container {
-
-  position: absolute;
-
-  left:120px;
-
-  font-family: 'Montserrat Alternates', sans-serif;
-  margin-top: 270px;
-
-  margin-bottom: 545px;
-
-  width: 890px;
-
+h1{
+  margin-top: 350px;
+  margin-bottom: 5px;
+  margin-left: 120px;
+  color: white;
+  font-family: var(--amatic);
+  font-size: var(--h2-laptop);
+  font-weight: 700;
+}
+h2{
+  margin-bottom: 20px;
+  margin-left: 120px;
+  color: white;
+  font-family: var(--comfortaa);
+  font-size: var(--h6-laptop);
+  font-weight: 400;
 }
 
-.title-container, h1 {
-  color: black;
-
-  font-size: 55px;
-
-  /*margin-left: 120px;*/
-
-}
-
-.title-container, h2 {
-  color: grey;
-
-  font-size: 40px;
-
-  /*margin-left: 120px;*/
-
+input{
+  margin-left: 120px;
+  width: 320px;
+  height: 90px;
+  padding: 5px;
+  border-radius: var(--btn-brd-radius);
+  box-shadow: var(--btn-shadow);
+  font-weight: 700;
+  font-family: var(--amatic);
+  font-size: var(--h4-laptop);
+  background-color: var(--green);
+  cursor: pointer;
 }

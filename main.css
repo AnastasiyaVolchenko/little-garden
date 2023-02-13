@@ -141,7 +141,7 @@ form button{
 
 /* Изменение цвета фона кнопки раскрывающегося списка при отображении содержимого раскрывающегося списка */
 .dropdown:hover .dropbtn {background-color: var(--green);
-  color: var(--gray);
+  color: var(--gray);}
 
 /*
 —————————————————

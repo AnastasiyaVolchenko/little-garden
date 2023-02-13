@@ -1,1 +1,38 @@
-f
+:root {
+  
+    /*Colors*/
+    --gray: #393333 ;
+    --green: #76F9CA;
+    
+    /*Font-family*/
+    --amatic: 'Amatic SC', cursive;
+    --comfortaa: 'Comfortaa', cursive;
+    
+    /*Block size*/
+    --bl-height: 80px;
+    --bl-laptop-brd-size: 3px solid white;
+    --bl-mobile-brd-size: 2px solid white;
+    
+    /*Button*/
+    --btn-shadow: 0px 4px 20px 3px rgba(118, 249, 202, 0.25);
+    --btn-brd-radius: 5px;
+    
+    /*Desktop font-size*/
+    --h1-laptop: 128px;
+    --h2-laptop: 96px;
+    --h3-laptop: 64px;
+    --h4-laptop: 48px;
+    --h5-laptop: 40px;
+    --h6-laptop: 32px;
+    
+    /*Android font-size*/
+    --h1-mobile: 64px;
+    --h2-mobile: 48px;
+    --h3-mobile: 32px;
+    --h4-mobile: 24px;
+    --h5-mobile: 20px;
+    --h6-mobile: 14px;
+    
+  }
+  
+  /*var(--color)*/

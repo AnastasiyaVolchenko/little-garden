@@ -1,10 +1,18 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=Edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  
+  <!-- Favicon -->
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+  <link rel="manifest" href="/site.webmanifest">
+  
+  <!-- Google Fonts-->
+  <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Comfortaa:wght@300;400&display=swap" rel="stylesheet">
 
   <title>little garden</title>
   
@@ -13,64 +21,44 @@
 
   <!-- Custom Styles -->
   <link rel="stylesheet" href="main.css">
-  <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Montserrat+Alternates&display=swap" rel="stylesheet">
-  <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@200&display=swap" rel="stylesheet">
-  
-  <style>
-    
-    
-  </style>
-  
-  
 </head>
+
 <body>
   
-    <!-- ПЛАШКА С НАВИГАЦИЕЙ-->
+  <header>
   
-  <div class="nav-block"></div>
-  
-  <div class="block-1">
-  
-    <div class="menu-elements">
-      
-      <img src='img/flower.png'>
-      
-      <div class='logo'>
-          
-        <a href = 'index.html'>little garden</a>
-          
-      </div>
-      
-      <div class='catalog-block-1'>
-        <li>Каталог</li>
-      </div>
-      
-      <div class="cart-block-2">
-      <li href="cart.html">Корзина</li>
-      </div>
-      
-      <div class="menu-block-3">
-        <li>Меню</li>
-      </div>
-      
-    </div>
+    <div class="logo">
 
-      <!-- ЗАГОЛОВОК-СЛОГАН -->
-    <div class='title-container'>
-      <h1>Растения — лёгкие планеты</h1>
-      <h2>Лучший способ освежить воздух в доме — создать собственный сад</h2>
-<!--      <div class="search-stroke">
-        <input type="text" placeholder=" Поиск..">
-      </div> -->
     </div>
     
-  </div>
-
-
-
-  <!-- JAVASCRIPT
-  <script src="main.js"></script> -->
+    <nav>
+      <ul>
+        <!-- Логотип -->
+        <li><a href="index.html"><img src="img/android-chrome-512x512.png" width="40px" height="40px">little garden</a></li>
+        
+        <!-- Поисковая Строка -->
+        <li>
+          <form action="" method="get">
+          <input name="s" placeholder="Искать здесь..." type="search">
+          <button type="submit"><img src="img/search.png" height="45px" width="45px"></button>
+        </form>
+        </li>
+        
+        <li><a href="#">Plant's</a></li>
+        <li><a href="#"> Contact's</a></li>
+        <li><a>Menu</a></li>
+      </ul>
+    </nav>
   
+    <h1>Plants — lungs of the planet</h1>
+    <h2>Freshen the air — create your own garden</h2>
+    
+    <input type="button" value="Buy a new friend" class="button" href="#"></input>
   
+  </header>
+
+  <!-- Script -->
+  <script src="main.js"></script>
 </body>
 </html>
+

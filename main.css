@@ -94,6 +94,55 @@ form button{
   line-height: 70px;
 }
 
+/* Кнопка выпадающего списка */
+.dropbtn {
+  font-family: var(--amatic);
+  font-size: var(--h5-laptop);
+  height: 80px;
+  width: 0 auto;
+  background-color: var(--gray);
+  color: white;
+  border-right: 2px solid white; border-left: 2px solid white;
+  padding-left: 47px; padding-right: 47px;
+}
+
+/* Контейнер <div> - необходим для размещения выпадающего содержимого */
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+/* Выпадающее содержимое (скрыто по умолчанию) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: var(--gray);
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  border-bottom: 2px solid white;
+}
+
+/* Ссылки внутри выпадающего списка */
+.dropdown-content a {
+  color: white;
+  padding-bottom: 10px;
+  padding: 6px 8px;
+  text-decoration: none;
+  display: block;
+  border-top: 2px solid white;
+}
+
+/* Изменение цвета выпадающих ссылок при наведении курсора */
+.dropdown-content a:hover {background-color: white;color:var(--gray);}
+
+/* Показать выпадающее меню при наведении курсора */
+.dropdown:hover .dropdown-content {display: block;}
+
+/* Изменение цвета фона кнопки раскрывающегося списка при отображении содержимого раскрывающегося списка */
+.dropdown:hover .dropbtn {background-color: var(--green);
+  color: var(--gray);
+
 /*
 —————————————————
  Слоган и кнопка

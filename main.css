@@ -13,7 +13,7 @@ body{
 }
 header{
   height: 1040px;
-  background-image: url(img/bg/bg.png);
+  background-image: url(img/image/bg/bg.png);
   background-repeat: no-repeat;
   background-position: absolute;
   background-position-y: bottom;
